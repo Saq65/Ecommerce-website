@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Tiemann;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+#list ul li {
+    cursor: pointer;
+}
+
+#info {
+    position: relative;
+    bottom: 200px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+#navbarsticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 5px;
+}
+
+#a:hover {
+    border-bottom: 1px solid black;
+}
+
+#hide {
+    display: none;
+}
+
+#card2 {
+    display: none;
+}
+
+#slider {
+    height: 25px;
+}
+
+#sarilist .card {
+    cursor: pointer;
+}
+
+#sarilist .card:hover {
+    transform: scale(1.1);
+}
+
+#about {
+    background-color: #FFFFFF;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#about h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+#about h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#c2 {
+    height: 260px;
+}
+
+#c3 {
+    height: 260px;
+}
+
+#about img {
+    cursor: pointer;
+}
+
+#cb1 {
+    border: 1px inset #E8E8E1;
+    padding: 5px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+#cb2 {
+    border: 1px inset #E8E8E1;
+    padding: 5px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+#cb3 {
+    border: 1px inset #E8E8E1;
+    padding: 5px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+#form h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+#silkoffer {
+    cursor: pointer;
+    background-color: #FDEDED;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerul {
+    cursor: pointer;
+    list-style: none;
+}
+
+#sticker2 {
+    display: none;
+}
+
+#mobileslide {
+    display: none;
+}
+
+#product h6 {
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+#product .card{
+    margin: 5px;
+}
+@media screen and (max-width:880px) {
+    * {
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #hide {
+        display: block;
+    }
+
+    .dropdown-toggle::after {
+        display: inline-block;
+    }
+
+    #navfoot ul li {
+        text-decoration: none;
+        list-style: none;
+        font-size: x-small;
+    }
+
+    #card1 {
+        display: none;
+    }
+
+    #card2 {
+        display: block;
+        /*  background-image: url('./Images/bharatsthali_sarees_home_300x.webp');*/
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    element.style {
+        object-position: center;
+    }
+
+    #slider {
+        font-size: x-small;
+    }
+
+    #about {
+        padding-left: 0;
+        padding-right: 0;
+        overflow: hidden;
+        zoom: 50%;
+    }
+
+    .addvertise {
+        height: 200px
+    }
+
+    #silkoffer {
+        height: 50px;
+    }
+
+    #silkoffer h3 {
+        font-size: small;
+    }
+
+    #silkoffer h3 span {
+        font-size: xx-small;
+    }
+
+    #cardtext {
+        /*  text-shadow: 2px 2px 2px #000000;*/
+        opacity: 1;
+        color: #FFFFFF;
+        letter-spacing: 3px;
+    }
+
+    #sticker {
+        display: none;
+    }
+
+    #sticker2 {
+        display: block;
+    }
+
+    #sticker2 {
+        font-size: x-small;
+    }
+
+    #info {
+        position: relative;
+        bottom: 0;
+    }
+
+    #homecardtext h6 {
+        font-size: 6pt;
+    }
+
+    #homecardtext p {
+        font-size: x-small;
+    }
+
+    #homecardtext button {
+        font-size: x-small;
+    }
+
+    #maintext {
+        font-size: x-small;
+    }
+
+    #mobileslide {
+        display: block;
+
+    }
+
+    #desktop {
+        display: none;
+    }
+
+}
